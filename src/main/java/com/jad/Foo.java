@@ -4,7 +4,7 @@ import java.util.List;
 
 public class Foo {
     private Bar bar;
-    private List<Bar> barzs; 
+    private List<Bar> bazs; 
     private Qux qux;
     private Corge corge;
     private List<Grault> graults;
@@ -12,12 +12,12 @@ public class Foo {
     public Foo (Bar bar) {
         this.bar = bar;
         this.qux = new Qux();
-        this.barzs = new ArrayList<>();
+        this.bazs = new ArrayList<>();
         this.graults = new ArrayList<>();
     }
 
     public void addBaz (Baz baz) {
-        this.barzs.add(bar);
+        this.bazs.add(bar);
     }
 
     public void addGrault (Grault grault) {
@@ -29,7 +29,7 @@ public class Foo {
     }
 
     public List<Bar> getBazs () {
-        return this.barzs;
+        return this.bazs;
     }
 
     public Qux getQux () {
