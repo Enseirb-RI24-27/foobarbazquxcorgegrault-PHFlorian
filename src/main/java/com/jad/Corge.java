@@ -12,6 +12,10 @@ public class Corge {
     }
 
     public void setFoo (Foo foo) {
-        this.foo = foo;
+        if (foo != null && foo != this.foo) {
+            Foo oldFoo = this.foo;
+            oldFoo.setCorge(null);
+            this.foo = foo;
+        }
     }
 }
