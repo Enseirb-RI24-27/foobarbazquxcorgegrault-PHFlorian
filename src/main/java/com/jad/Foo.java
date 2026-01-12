@@ -44,8 +44,8 @@ public class Foo {
         if (corge != null && corge != this.corge) {
             Corge oldCorge = this.corge;
             oldCorge.setFoo(null);
-            this.corge = corge;
         }
+        this.corge = corge;
     }
 
     public List<Grault> getGraults () {

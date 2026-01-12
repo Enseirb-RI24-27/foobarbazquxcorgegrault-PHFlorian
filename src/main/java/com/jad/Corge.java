@@ -15,7 +15,7 @@ public class Corge {
         if (foo != null && foo != this.foo) {
             Foo oldFoo = this.foo;
             oldFoo.setCorge(null);
-            this.foo = foo;
         }
+        this.foo = foo;
     }
 }
