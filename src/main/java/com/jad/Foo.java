@@ -4,7 +4,7 @@ import java.util.List;
 
 public class Foo {
     private Bar bar;
-    private List<Bar> bazs; 
+    private List<Baz> bazs; 
     private Qux qux;
     private Corge corge;
     private List<Grault> graults;
@@ -17,7 +17,7 @@ public class Foo {
     }
 
     public void addBaz (Baz baz) {
-        this.bazs.add(bar);
+        this.bazs.add(baz);
     }
 
     public void addGrault (Grault grault) {
@@ -28,7 +28,7 @@ public class Foo {
         return this.bar;
     }
 
-    public List<Bar> getBazs () {
+    public List<Baz> getBazs () {
         return this.bazs;
     }
 
